@@ -1,4 +1,4 @@
-package main
+package stack
 
 import "fmt"
 
@@ -48,7 +48,7 @@ func (s *Stack) Pop() (string, bool) {
 func (n *Node) Pop() (string, bool) {
 	value := n.Value
 	tail := n.Next
-	
+
 	if tail.Next == nil {
 		value = n.Next.Value
 		n.Next = nil
