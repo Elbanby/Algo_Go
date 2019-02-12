@@ -41,6 +41,13 @@ func (q *Queue) Deque() (string, bool) {
 	return "Queue is erased", true
 }
 
+func (q *Queue) Peek() string {
+	if q.Head == nil {
+		return "Empty Queue"
+	}
+	return q.Head.Value
+}
+
 func (q *Queue) Print() {
 	if q.Head == nil {
 		fmt.Println("Queue is currently empty")
