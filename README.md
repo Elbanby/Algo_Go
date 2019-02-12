@@ -7,4 +7,7 @@ This list will continue to grow everytim I implement a new DS or ALG
 
 #### DS
  1- Stacks
+ 
+ 2- Queue
+ 
 #### ALG 
