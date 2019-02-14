@@ -10,4 +10,5 @@ This list will continue to grow everytim I implement a new DS or ALG
  
  2- Queue
  
+ 3- LinkedList
 #### ALG 
