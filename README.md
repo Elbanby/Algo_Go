@@ -14,4 +14,6 @@ This list will continue to grow everytim I implement a new DS or ALG
  
  4- BinarySearchTree
  
+ 5- HashTables
+ 
 #### ALG 
